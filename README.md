@@ -40,6 +40,8 @@
 
     * Index page with name and blurb, links to Footer, Header, Bubble and Blurb
 
+* Service worker?
+
 ### Layout Sketches
 
 ![ScreenOne](https://raw.githubusercontent.com/missjody/workportfolio/master/public/Screen%201.png)
