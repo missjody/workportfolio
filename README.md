@@ -39,3 +39,11 @@
     * Contact page, links to Footer
 
     * Index page with name and blurb, links to Footer, Header, Bubble and Blurb
+
+### Layout Sketches
+
+![ScreenOne](https://raw.githubusercontent.com/missjody/workportfolio/master/public/Screen%201.png)
+
+![ScreenTwo](https://raw.githubusercontent.com/missjody/workportfolio/master/public/Screen%201.png)
+
+![ScreenThree](https://raw.githubusercontent.com/missjody/workportfolio/master/public/Screen3.png)
