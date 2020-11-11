@@ -1,10 +1,16 @@
 ## Portfolio Project
 
+### Template
+
+* Starting with base provided by [https://github.com/rbhatia46/React-Portfolio](Rahul Bhatia) 
+
+* Change drop down for smaller screens
+
+* Update colors to make more readable
+
+* Update content 
+
 ### Todos
-
-* Get image for main intro page
-
-* Color scheme set up
 
 * Uniform square images of projects to be presented
 
@@ -27,10 +33,6 @@
     |_link to each project: populates project page with project selected
 
 * Chonks
-
-    * Footer
-    
-    * Header
 
     * Bubble and Blurb (then mapped over all proejects and injects the into page)
 
