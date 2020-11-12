@@ -17,27 +17,15 @@ Still giving the same error over and over, will come back to this.
 
     * Updated fontawesome as npm instead of fontawesome file
     * set up icons as a component FontAwesomeIcon
+    * Do I even want to mess with routing? Lets do it as a modal?
 
-4
-* Set up projects skeletons/project component
-    * Project page and template, links to Footer
-    * Bubble and Blurb (then mapped over all proejects and injects the into page)
-
-
-7
 * Project images
-710
+
 * Project descriptions
-720
-* Check and fix sizing issues
-735
+
 * Set links to github/linkedin/resume to open in a new window
-745
-* Check for unncessiary folders, like can we do NPM instead on some of these things
-8
+
 * Update content 
-815 -- Break
-915
 * Projects to be used need to be updated for portfolio
     * Loan Calculator
     * Project 2

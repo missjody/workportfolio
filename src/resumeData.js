@@ -32,23 +32,23 @@ let resumeData = {
     "website":"https://github.com/missjody/workportfolio",
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
+        "name":"Loan Payment Calculator",
+        "description":"Description Goes Here",
         "imgurl":"images/portfolio/coffee.jpg"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
+        "name":"Streamer",
+        "description":"Description Goes Here",
         "imgurl":"images/portfolio/console.jpg"
       },
       {
-        "name":"project3",
-        "description":"mobileapp",  
+        "name":"Surata",
+        "description":"Description Goes Here",  
         "imgurl":"images/portfolio/retrocam.jpg"
       },
       {
-        "name":"project4",
-        "description":"mobileapp",
+        "name":"Deploying to Azure",
+        "description":"Process Article",
         "imgurl":"images/portfolio/girl.jpg"
       }
     ]
