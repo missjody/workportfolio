@@ -702,6 +702,14 @@ properly.
 
 /* smaller screens
 --------------------------------------------------------------- */
+
+/* @media only screen and (max-width: 1300px) {
+   .hide-me {
+      visibility: hidden;
+      height: 0;
+   }
+} */
+
 @media only screen and (max-width: 900px) {
 
    /* block grids on small screens */
@@ -758,6 +766,7 @@ properly.
    .row { width: auto; }
 
 }
+
 
 /* larger screens
 --------------------------------------------------------------- */

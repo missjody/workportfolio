@@ -49,11 +49,11 @@
 
    /* About Section
    ------------------------------------------------------------------- */
-   #about .profile-pic {
-      width: 114px;
-      height: 114px;
+   /* #about .profile-pic {
+      width: 20rem;
+      height: 20rem;
       margin-left: 12px;
-   }
+   } */
    #about .contact-details { width: 50%; }
    #about .download { width: 50%; }
 
@@ -112,7 +112,7 @@
 	   width: 48px;
 		height: 48px;
 		text-align: left;
-		background-color: #CC5200;
+		background-color: #2b2b2b;
 		position: relative;
       border: none;
       float: right;
@@ -215,7 +215,7 @@
 
    /* About Section
    -------------------------------------------------------------------- */
-   #about .profile-pic { display: none; }
+   #about #hideMe { display: none; }
    #about .download .button {
       width: 100%;
       text-align: center;

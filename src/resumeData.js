@@ -1,9 +1,9 @@
 let resumeData = {
     "imagebaseurl":"https://github.com/missjody/workportfolio",
     "name": "Jody Russell",
-    "role": "Web Developer with front-end and back-end experience working with the MERN stack",
+    "role": "Web Developer with front and back end experience working with the MERN stack",
     "linkedinId":"missjodyrussell",
-    "roleDescription": " I also have an extensive background in both customer service and consumer lending, with the last six years being spent in credit unions",
+    "roleDescription": " I also have a background in consumer lending in the credit union industry.",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -23,22 +23,22 @@ let resumeData = {
       {
         "name":"project1",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "imgurl":"images/portfolio/coffee.jpg"
       },
       {
         "name":"project2",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "imgurl":"images/portfolio/console.jpg"
       },
       {
         "name":"project3",
         "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
+        "imgurl":"images/portfolio/retrocam.jpg"
       },
       {
         "name":"project4",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "imgurl":"images/portfolio/girl.jpg"
       }
     ]
   }
