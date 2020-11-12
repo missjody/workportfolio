@@ -16,6 +16,12 @@ import Portfolio from './components/Portfolio';
 import Footer from "./components/Footer"
 import resumeData from './resumeData';
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope, faFile } from '@fortawesome/free-solid-svg-icons'
+
+library.add( faEnvelope, faFile, fab)
+
 function App() {
 
     return (

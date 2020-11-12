@@ -15,6 +15,8 @@ Still giving the same error over and over, will come back to this.
 
 * Design project solo page
 
+    * Updated fontawesome as npm instead of fontawesome file
+    * set up icons as a component FontAwesomeIcon
 
 4
 * Set up projects skeletons/project component

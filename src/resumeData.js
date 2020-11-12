@@ -5,15 +5,26 @@ let resumeData = {
     "linkedinId":"missjodyrussell",
     "roleDescription": " I also have a background in consumer lending in the credit union industry.",
     "socialLinks":[
+    
+      {
+        "name":"github",
+        "url":"https://github.com/missjody",
+        "icon":['fab','github']
+      },
         {
           "name":"linkedin",
           "url":"https://www.linkedin.com/in/missjodyrussell/",
-          "className":"fa fa-linkedin"
+          "icon":['fab', 'linkedin-in']
         },
         {
-          "name":"github",
-          "url":"https://github.com/missjody",
-          "className":"fa fa-github"
+          "name":"email",
+          "url":"mailto: missjodyrussell@gmail.com",
+          "icon":"envelope"
+        },
+        {
+          "name":"resume",
+          "url":"INSERT RESUME HERE",
+          "icon":"file"
         }
       ],
     "aboutme":"In April 2020 I graduated from the University of Denver’s Full Stack program, which covered HTML, CSS, JS, and React. I also gained experience in setting up databases and servers to connect to front-end, including MongoDB, Mongoose, and Express. Outside of class I have explored additional technologies: Adobe Xd, Green Sock animation, Materialize CSS, Nextjs, Redux, Sass and ChartJS.",

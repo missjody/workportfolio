@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default class Footer extends Component {
   render() {
@@ -13,7 +14,7 @@ export default class Footer extends Component {
                 return(
                   <li>
                     <a href={item.url}>
-                    <i className={item.className} />
+                    <FontAwesomeIcon icon={item.icon} />
                     </a>
                   </li>
                 )
