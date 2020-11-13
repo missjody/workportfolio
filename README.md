@@ -2,47 +2,22 @@
 
 ### Todos
 
-* Update to multiple pages (routing) 
+* Rather than routing to another page, projects will be sat up as popup modals
 
-Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object.
-
-Check the render method of `App`.
-
-"You're exporting a React element, not a component.. Changed to class App extends Component and exported"
-"https://www.netlify.com/blog/2016/11/10/3-of-the-most-common-errors-in-react/"
-
-Still giving the same error over and over, will come back to this.
-
-* Design project solo page
-
-    * Updated fontawesome as npm instead of fontawesome file
-    * set up icons as a component FontAwesomeIcon
-    * Do I even want to mess with routing? Lets do it as a modal?
-
-* Project images
-
-* Project descriptions
+* Project images -- still need image for loan calculator and description
 
 * Set links to github/linkedin/resume to open in a new window
 
-* Update content 
-* Projects to be used need to be updated for portfolio
+* Projects to be used need to be updated for portfolio -- need to update hosting situation 
     * Loan Calculator
     * Project 2
     * Project 3
     * Article on deploying to Azure
-    * What will be used for project 5????
-* Service worker?
 
 ### Template
 
 * Starting with base provided by [https://github.com/rbhatia46/React-Portfolio](Rahul Bhatia) 
-
-* index
-    |
-    |_link to projects: puts five project bubbles at the top of the page__
-    |
-    |_link to each project: populates project page with project selected
+es project page with project selected
 
 ### Layout Sketches/Rough Draft
 
