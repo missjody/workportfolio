@@ -4,7 +4,11 @@
 //Modal.js
 import React from 'react';
 const Modal = props => {
-     
+   //   console.log("Modal item", props)
+
+   //   let name = props.itemName;
+     console.log("Modal item", props.resumeData.portfolio[props.modalInfo])
+
      const divStyle = { 
           display: props.displayModal ? 'block' : 'none'
      };
@@ -16,7 +20,8 @@ const Modal = props => {
        <div 
          className="modal"
          onClick={ closeModal }
-         style={divStyle} >
+         style={divStyle} 
+         key={props.modalInfo}>
           <div 
              className="modal-content"
              onClick={ e => e.stopPropagation() } >
@@ -24,6 +29,7 @@ const Modal = props => {
                  className="close"
                  onClick={ closeModal }>&times;
              </span>
+             {/* <h1 style={{color: "black"}}>{props.item[props.itemID].name}</h1> */}
           </div>
        </div>
      );

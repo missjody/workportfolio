@@ -32,25 +32,25 @@ let resumeData = {
     "website":"Link to Resume?",
     "portfolio":[
       {
-        "modalID":"modal1",
+        "modalID":"0",
         "name":"Loan Payment Calculator",
         "description":"Need to write blurb and take a screen shot please",
         "imgurl":"images/portfolio/coffee.jpg"
       },
       {
-        "modalID":"modal2",
+        "modalID":"1",
         "name":"Streamer",
         "description":"Store what movies and tv shows are on your watch list. For this project I created the layout and color scheme of the entire page, as well as working with routes to call to The Movie Database api and Chart.js.",
         "imgurl":"images/portfolio/streamer.jpg"
       },
       {
-        "modalID":"modal3",
+        "modalID":"2",
         "name":"Surata",
         "description":"React password protected productivity application, including the ability to set up goals and sub tasks, a Pomodoro timer, and a meditation page. I designed the the meditation page using GSAP and React-Sound, as well as the splash page.",  
         "imgurl":"images/portfolio/surata1.jpg"
       },
       {
-        "modalID":"modal4",
+        "modalID":"3",
         "name":"Deploying to Azure",
         "description":"In an effort to create resources for myself that will also help others with their programming journey, this article outlines the steps neccessary to deploy a React application to Microsoft Azure.",
         "imgurl":"images/portfolio/azure.JPG"
