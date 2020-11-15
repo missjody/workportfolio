@@ -1,5 +1,17 @@
 import React, { Component } from 'react';
+// import Modal from "./Modal.js";
+
 export default class Portfolio extends Component {
+
+//   state = {
+//     modal: false
+//  }
+  
+//  selectModal = (info) => {
+//    this.setState({modal: !this.state.modal}) // true/false toggle
+//  }
+
+
   render() {
     let resumeData = this.props.resumeData;
     return (
@@ -11,16 +23,19 @@ export default class Portfolio extends Component {
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
-                <div className="columns portfolio-item">
+                <div className="columns portfolio-item" key={item.modalID}>
                   <div className="item-wrap">
-                    <a href="#modal-01">
-                      <img src={`${item.imgurl}`} className="item-img"/>
+                    <a href={item.modalID}>
+                      <img src={`${item.imgurl}`} className="item-img" />
+                      {/* onClick={ this.selectModal } */}
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>
                           <p>{item.description}</p>
                         </div>
                       </div>
+                      {/* <Modal displayModal={this.state.modal}
+                 closeModal={this.selectModal}/> */}
                     </a>
                   </div>
                 </div>

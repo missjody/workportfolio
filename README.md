@@ -19,6 +19,8 @@
 * Starting with base provided by [https://github.com/rbhatia46/React-Portfolio](Rahul Bhatia) 
 es project page with project selected
 
+
+
 ### Layout Sketches/Rough Draft
 
 ![ScreenOne](https://raw.githubusercontent.com/missjody/workportfolio/master/public/Screen%201.png)
