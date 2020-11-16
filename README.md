@@ -14,6 +14,7 @@
     * Project 3
     * Article on deploying to Azure
 
+
 ### Template
 
 Starting with base by Rahul Bhatia https://github.com/rbhatia46/React-Portfolio 
@@ -34,6 +35,9 @@ Hovering over a project gives a short description of the project. Once completed
 
 ![Jody](https://raw.githubusercontent.com/missjody/workportfolio/master/public/images/sample7.JPG)
 
+Worked through this tutorial for modals in react: https://github.com/AlbertCarreras/modal_example
+
+* Modified to allow for more than one modal on page, creating content inside each
 
 
 ### Layout Sketches/Rough Draft

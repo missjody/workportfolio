@@ -439,6 +439,14 @@ ul#nav li.current a { color: #1DABB0; }
    border: 1px solid black;
    border-radius: 20px; /* Optional. Rounds container corners */
 }
+
+.modal-img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 25%;
+}
+
 /* Close button */
 .close {
   color: #aaaaaa;
