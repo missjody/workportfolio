@@ -36,9 +36,9 @@ let resumeData = {
         "name":"Loan Payment Calculator",
         "description":"Calculate your estimated monthly loan payment based on entered parameters.",
         "longDescription":"This react calculator project was built in incremental steps, starting from simple Javascript and ending as a React app. Currently version 6 is in development, with additional user interfact options being implemented, as well as additional environmental improvements.",
-        "imgurl":"images/portfolio/coffee.jpg",
+        "imgurl":"images/portfolio/calculator.jpg",
         "github":"https://github.com/missjody/loan_calculator",
-        "deployed":"https://infinite-escarpment-31136.herokuapp.com/"
+        "deployed":"https://loan-calculator-project.herokuapp.com/"
       },
       {
         "modalID":"1",
@@ -47,7 +47,7 @@ let resumeData = {
         "longDescription":"To try the application out use username 'test@test.com', and password 'test'. This single page application was created using Handlebars.js, and was a group project in the bootcamp I attended. I was originally tasked with creating the color pallete for the project, designing the user interface for each of the pages, generating dynamically with Handlesbars.js, and integrating the Chart.js technology. In it's current form I have updated the Owl Carousels to resolve overlapping image issues, and have resolved the error of adding selections when their is more than one option on the selected page.",
         "imgurl":"images/portfolio/streamer.jpg",
         "github":"https://github.com/missjody/Streamer",
-        "deployed":""
+        "deployed":"https://infinite-bayou-97369.herokuapp.com/"
       },
       {
         "modalID":"2",

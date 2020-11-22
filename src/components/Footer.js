@@ -13,7 +13,7 @@ export default class Footer extends Component {
               resumeData.socialLinks && resumeData.socialLinks.map((item)=>{
                 return(
                   <li>
-                    <a href={item.url}>
+                    <a  target="_blank" href={item.url}>
                     <FontAwesomeIcon icon={item.icon} />
                     </a>
                   </li>

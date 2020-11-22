@@ -33,7 +33,6 @@ export default class Portfolio extends Component {
               return(
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
-                    {/* <a href={item.modalID}> */}
                       <img src={`${item.imgurl}`} alt="project example" className="item-img"/>
                       <div className="overlay" onClick={ () => this.selectModal(itemID) }>
                         <div className="portfolio-item-meta">
@@ -41,7 +40,6 @@ export default class Portfolio extends Component {
                           <p>{item.description}</p>
                         </div>
                       </div>
-                    {/* </a> */}
                   </div>
                   <Modal 
                     resumeData={resumeData} 
