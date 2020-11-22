@@ -12,46 +12,50 @@ const Modal = props => {
      function displayInfo() {
 
       let item = props.resumeData.portfolio[props.modalInfo]
-
+      
       switch(props.modalInfo) {
          case "0":
+            // console.log("href test", item.deployed)
             return ( 
-               <div>
+               <div id="modal">
 
-                  <h1 style={{color: "black"}}>{item.name}</h1>
+                  <h1 style={{color: "white"}}>{item.name}</h1>
                   <img src={`${item.imgurl}`} alt={item.name} className="modal-img"/>
-                  <h3 style={{color: "black"}}>Make it longer: {item.description}</h3>
-                  <h5> Link Link Link</h5>
+                  <h3 style={{color: "white"}}>{item.longDescription}</h3>
+                  <a display='block' target="_blank" href={`${item.deployed}`}>Deployed Project</a>
+                  <a display='block' target="_blank"  href={`${item.github}`}>GitHub Repository</a>
                </div>
             )
          case "1":
             return ( 
-               <div>
+               <div id="modal">
 
-                  <h1 style={{color: "black"}}>{item.name}</h1>
+                  <h1 style={{color: "white"}}>{item.name}</h1>
                   <img src={`${item.imgurl}`} alt={item.name} className="modal-img"/>
-                  <h3 style={{color: "black"}}>Make it longer: {item.description}</h3>
-                  <h5> Link Link Link</h5>
+                  <h3 style={{color: "white"}}>{item.longDescription}</h3>
+                  <a display='block' target="_blank" href={`${item.deployed}`}>Deployed Project</a>
+                  <a display='block' target="_blank"  href={`${item.github}`}>GitHub Repository</a>
                </div>
             )
          case "2": 
          return ( 
-            <div>
+            <div id="modal">
 
-               <h1 style={{color: "black"}}>{item.name}</h1>
+               <h1 style={{color: "white"}}>{item.name}</h1>
                <img src={`${item.imgurl}`} alt={item.name} className="modal-img"/>
-               <h3 style={{color: "black"}}>Make it longer: {item.description}</h3>
-               <h5> Link Link Link</h5>
+               <h3 style={{color: "white"}}>{item.longDescription}</h3>
+               <a display='block' target="_blank" href={`${item.deployed}`}>Deployed Project</a>
+                  <a display='block' target="_blank"  href={`${item.github}`}>GitHub Repository</a>
             </div>
          )
          case "3":
             return ( 
-               <div>
+               <div id="modal">
 
-                  <h1 style={{color: "black"}}>{item.name}</h1>
+                  <h1 style={{color: "white"}}>{item.name}</h1>
                   <img src={`${item.imgurl}`} alt={item.name} className="modal-img"/>
-                  <h3 style={{color: "black"}}>Make it longer: {item.description}</h3>
-                  <h5> Link Link Link</h5>
+                  <h3 style={{color: "white"}}>{item.longDescription}</h3>
+                  <a display='block' target="_blank"  href={`${item.github}`}>GitHub Page</a>
                </div>
             )
          default:

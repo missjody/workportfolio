@@ -34,7 +34,7 @@ export default class Portfolio extends Component {
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     {/* <a href={item.modalID}> */}
-                      <img src={`${item.imgurl}`} className="item-img"/>
+                      <img src={`${item.imgurl}`} alt="project example" className="item-img"/>
                       <div className="overlay" onClick={ () => this.selectModal(itemID) }>
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>

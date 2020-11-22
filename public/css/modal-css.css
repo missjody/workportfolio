@@ -13,17 +13,30 @@
     overflow: auto; /* Enable scroll if needed */
     padding-top: 80px; /* Location of the content container */
  }
+
  /* Modal content */
  .modal-content {
-    background-color: white;
+    background-color: #2b2b2b;
     width: 70%; /* Width in proportion to its parent container*/
     max-width: 640px; /* Max width where it stops expanding */
     height: 70%; /* Height in proportion to its parent container */
     margin: auto; /* Auto margin according to the element width */
     padding: 10px;
-    border: 1px solid black;
-    border-radius: 20px; /* Optional. Rounds container corners */
+    border: 1px solid #2b2b2b;
+    border-radius: 50px; /* Optional. Rounds container corners */
+    overflow: auto;
  }
+
+ .modal-img  {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 2rem;
+   width: 25%;
+   border-radius: 50px;
+}
+
+
  /* Close button */
  .close {
    color: #aaaaaa;
@@ -36,4 +49,13 @@
     color: #000;
     text-decoration: none;
     cursor: pointer;
+ }
+
+ #modal h1 {
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+ }
+
+ #modal a {
+    margin-left: 2rem;
  }

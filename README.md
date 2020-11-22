@@ -2,11 +2,9 @@
 
 ### Todos
 
-* Rather than routing to another page, projects will be sat up as popup modals
-
 * Project images -- still need image for loan calculator and description
 
-* Set links to github/linkedin/resume to open in a new window
+* Set links to github/linkedin/resume/project links to open in a new window
 
 * Projects to be used need to be updated for portfolio -- need to update hosting situation 
     * Loan Calculator
@@ -37,7 +35,9 @@ Hovering over a project gives a short description of the project. Once completed
 
 Worked through this tutorial for modals in react: https://github.com/AlbertCarreras/modal_example
 
-* Modified to allow for more than one modal on page, creating content inside each
+* Modified to allow for more than one modal on page, creating content inside each modal
+
+* Change from case switch to something more elegant
 
 
 ### Layout Sketches/Rough Draft
