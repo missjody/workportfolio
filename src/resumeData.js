@@ -56,7 +56,7 @@ let resumeData = {
         "longDescription":"To test use username 'test' and password 'test'. React password protected productivity application, including the ability to set up goals and sub tasks, a Pomodoro timer, and a meditation page. This was the final group project in the bootcamp I attended. I created the the meditation page using GSAP and React-Sound, and designed the splash page, as well as overall color scheme and hero images. In it's current form I have updated the project to remove illustrations previously seen on the splash page and Pomodoro page.",
         "imgurl":"images/portfolio/surata1.jpg",
         "github":"https://github.com/missjody/productivity-app",
-        "deployed":""
+        "deployed":"https://newsurata.herokuapp.com/"
       },
       {
         "modalID":"3",
