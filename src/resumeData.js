@@ -23,7 +23,7 @@ let resumeData = {
         },
         {
           "name":"resume",
-          "url":"https://missjodyrussell.heroku.com/docs/Resume.pdf",
+          "url":"https://missjodyrussell.herokuapp.com/docs/Resume.pdf",
           "icon":"file"
         }
       ],
@@ -35,7 +35,7 @@ let resumeData = {
         "modalID":"0",
         "name":"Loan Payment Calculator",
         "description":"Calculate your estimated monthly loan payment based on entered parameters.",
-        "longDescription":"This react calculator project was built in incremental steps, starting from simple Javascript and ending as a React app. Currently version 6 is in development, with additional user interfact options being implemented, as well as additional environmental improvements.",
+        "longDescription":"This react calculator project was built in incremental steps, starting from simple Javascript and ending as a React application. Currently version 6 is in development, with additional user interface options being implemented as well as resolving responsive issues.",
         "imgurl":"images/portfolio/calculator.jpg",
         "github":"https://github.com/missjody/loan_calculator",
         "deployed":"https://loan-calculator-project.herokuapp.com/"
