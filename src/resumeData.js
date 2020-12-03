@@ -23,13 +23,13 @@ let resumeData = {
         },
         {
           "name":"resume",
-          "url":"INSERT RESUME HERE",
+          "url":"https://missjodyrussell.heroku.com/docs/Resume.pdf",
           "icon":"file"
         }
       ],
     "aboutme":"In April 2020 I graduated from the University of Denver’s Full Stack program, which covered HTML, CSS, JS, and React. I also gained experience in setting up databases and servers to connect to front-end, including MongoDB, Mongoose, and Express. Outside of class I have explored additional technologies: Adobe Xd, Green Sock animation, Materialize CSS, Nextjs, Redux, Sass and ChartJS.",
-    "address":"Put Contact Info Here",
-    "website":"Link to Resume?",
+    "address":"405.780.4121",
+    "website":"mailto:missjodyrussell@gmail.com",
     "portfolio":[
       {
         "modalID":"0",

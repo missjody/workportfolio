@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
+
 export default class Header extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -24,11 +25,12 @@ export default class Header extends Component {
                <h3 className="hide-me" style={{color:'#2b2b2b', fontFamily:'sans-serif '}}>I am a {resumeData.role}.{resumeData.roleDescription}
                </h3>
                <hr/>
+               
                <ul className="social">
                   {
                     resumeData.socialLinks && resumeData.socialLinks.map(item =>{
                       return(
-                              <li key={item.name}>
+                        <li key={item.name}>
                                 <a href={item.url} target="_blank">
                                 <FontAwesomeIcon icon={item.icon} />
                                 </a>
@@ -40,9 +42,8 @@ export default class Header extends Component {
                </ul>
             </div>
          </div>
-
          <p className="scrolldown">
-            <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
+            <a className="smoothscroll" href="#about"><FontAwesomeIcon icon="arrow-circle-down" /></a>
          </p>
 
       </header>
