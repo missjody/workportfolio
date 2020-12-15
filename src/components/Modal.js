@@ -55,7 +55,7 @@ const Modal = props => {
                   <h1 style={{color: "white"}}>{item.name}</h1>
                   <img src={`${item.imgurl}`} alt={item.name} className="modal-img"/>
                   <h3 style={{color: "white"}}>{item.longDescription}</h3>
-                  <a display='block' target="_blank"  href={`${item.github}`}>GitHub Page</a>
+                  <a display='block' target="_blank"  href={`${item.article}`}>Link to article</a>
                </div>
             )
          default:

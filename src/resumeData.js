@@ -23,7 +23,7 @@ let resumeData = {
         },
         {
           "name":"resume",
-          "url":"https://missjodyrussell.herokuapp.com/docs/Resume.pdf",
+          "url":"https://docs.google.com/document/d/107RY7M08vqm8F77XxjkhaZFULj07Vj3bdn56fxxYONk/edit?usp=sharing",
           "icon":"file"
         }
       ],
@@ -64,8 +64,7 @@ let resumeData = {
         "description":"In an effort to create resources for myself that will also help others with their programming journey, this article outlines the steps neccessary to deploy a React application to Microsoft Azure.",
         "longDescription":"In an effort to create resources for myself that will also help others with their programming journey, this article outlines the steps neccessary to deploy a React application to Microsoft Azure. Following the steps will assist anyone interested in deploying this way.",
         "imgurl":"images/portfolio/azure.JPG",
-        "github":"",
-        "deployed":""
+        "article" : "https://docs.google.com/document/d/1DvHVMeTab2jGcIs8IAllv6Nq5VNFFBs7DIveaKww7GA/edit?usp=sharing"
       }
     ]
   }
