@@ -1,19 +1,18 @@
 ## Portfolio Project
 
-https://missjodyrussell.herokuapp.com/
+https://missjodyrussell.com
 
 ### Todos
 
-* Project images -- still need image for loan calculator and description
+* Update Rahul's code to remove outdated jquery
+    * switch from init.js to react hook
+    * fix nav bar visibility 
 
-* Set links to github/linkedin/resume/project links to open in a new window
+* Change from modals to routing to individual pages
 
-* Projects to be used need to be updated for portfolio -- need to update hosting situation 
-    * Loan Calculator
-    * Project 2
-    * Project 3
-    * Article on deploying to Azure
+* Add more pages
 
+* Push updates to live site
 
 ### Template
 

@@ -7,7 +7,7 @@ const Modal = props => {
    //   console.log("Modal item", props)
 
    //   let name = props.itemName;
-     console.log("Modal item", props.modalInfo)
+   //   console.log("Modal item", props.modalInfo)
 
      function displayInfo() {
 
