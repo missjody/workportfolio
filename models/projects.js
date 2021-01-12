@@ -15,6 +15,6 @@ const projectsSchema = new Schema({
   longDescription : { type: String, required: true }
 });
 
-const Project = mongoose.model("Project", projectsSchema);
+const Project = mongoose.model("Project", projectsSchema);  
 
 module.exports = Project;

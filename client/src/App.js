@@ -34,3 +34,11 @@ function App() {
 }
 
 export default App;
+
+// how to call individual projects
+{/* <Route
+path="/profile/:profileId"
+render={(props) => {
+  return <Profile {...props} loading={this.state.loading} />;
+}}
+/> */}
