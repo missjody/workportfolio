@@ -4,8 +4,6 @@ https://missjodyrussell.com
 
 ### Todos
 
-* Check for broken links with the update
-
 * Update Rahul's code to remove outdated jquery
     * switch from init.js to react hook
     * fix nav bar visibility 
