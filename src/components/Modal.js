@@ -22,8 +22,8 @@ const Modal = props => {
                   <h1 style={{color: "white"}}>{item.name}</h1>
                   <img src={`${item.imgurl}`} alt={item.name} className="modal-img"/>
                   <h3 style={{color: "white"}}>{item.longDescription}</h3>
-                  <a display='block' target="_blank" href={`${item.deployed}`}>Deployed Project</a>
-                  <a display='block' target="_blank"  href={`${item.github}`}>GitHub Repository</a>
+                  <a display='block' target="_blank" href={`${item.deployed}`}  rel="noreferrer">Deployed Project</a>
+                  <a display='block' target="_blank"  href={`${item.github}`}  rel="noreferrer">GitHub Repository</a>
                </div>
             )
          case "1":
@@ -33,8 +33,8 @@ const Modal = props => {
                   <h1 style={{color: "white"}}>{item.name}</h1>
                   <img src={`${item.imgurl}`} alt={item.name} className="modal-img"/>
                   <h3 style={{color: "white"}}>{item.longDescription}</h3>
-                  <a display='block' target="_blank" href={`${item.deployed}`}>Deployed Project</a>
-                  <a display='block' target="_blank"  href={`${item.github}`}>GitHub Repository</a>
+                  <a display='block' target="_blank" href={`${item.deployed}`}  rel="noreferrer">Deployed Project</a>
+                  <a display='block' target="_blank"  href={`${item.github}`}  rel="noreferrer">GitHub Repository</a>
                </div>
             )
          case "2": 
@@ -44,8 +44,8 @@ const Modal = props => {
                <h1 style={{color: "white"}}>{item.name}</h1>
                <img src={`${item.imgurl}`} alt={item.name} className="modal-img"/>
                <h3 style={{color: "white"}}>{item.longDescription}</h3>
-               <a display='block' target="_blank" href={`${item.deployed}`}>Deployed Project</a>
-                  <a display='block' target="_blank"  href={`${item.github}`}>GitHub Repository</a>
+               <a display='block' target="_blank" href={`${item.deployed}`}  rel="noreferrer">Deployed Project</a>
+                  <a display='block' target="_blank"  href={`${item.github}`}  rel="noreferrer">GitHub Repository</a>
             </div>
          )
          case "3":
@@ -55,7 +55,7 @@ const Modal = props => {
                   <h1 style={{color: "white"}}>{item.name}</h1>
                   <img src={`${item.imgurl}`} alt={item.name} className="modal-img"/>
                   <h3 style={{color: "white"}}>{item.longDescription}</h3>
-                  <a display='block' target="_blank"  href={`${item.article}`}>Link to article</a>
+                  <a display='block' target="_blank"  href={`${item.article}`}  rel="noreferrer">Link to article</a>
                </div>
             )
          default:

@@ -31,7 +31,7 @@ export default class Portfolio extends Component {
               let itemID = item.modalID;
 
               return(
-                <div className="columns portfolio-item">
+                <div key={item.name} className="columns portfolio-item">
                   <div className="item-wrap">
                       <img src={`${item.imgurl}`} alt="project example" className="item-img"/>
                       <div className="overlay" onClick={ () => this.selectModal(itemID) }>
