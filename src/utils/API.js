@@ -1,5 +1,8 @@
-const API = {
-    // object with data for the site
-}
+import axios from "axios";
 
-export default API;
+export default {
+  // Gets all projects
+  getProjects: function () {
+    return axios.get("/api/projects");
+  }
+};

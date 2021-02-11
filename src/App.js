@@ -1,65 +1,44 @@
 import React from 'react';
-// import {
-//   BrowserRouter as Router,
-//   Switch,
-//   Route
-// } from "react-router-dom";
-// import Footer from './components/Footer';
-// import resumeData from './resumeData';
-// import ProjectSolo from "./pages/ProjectSolo.js"
-// import Home from "./pages/Home.js"
-// import NoMatch from "./pages/NoMatch.js"
-
-import Header from './components/Header';
-import About from './components/About';
-import Portfolio from './components/Portfolio';
-import Footer from "./components/Footer"
-import resumeData from './resumeData';
-
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope, faFile } from '@fortawesome/free-solid-svg-icons'
-
-library.add( faEnvelope, faFile, fab)
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Contact from "./pages/Contact";
+import Home from "./pages/Home";
+import Oops from "./pages/Oops";
+import Projects from "./pages/Projects";
+import Navbar from "./components/Navbar/Navbar";
+// import Footer from "./components/Footer/Footer";
+import './App.css';
 
 function App() {
-
-    return (
-      <div className="App">
-        <Header resumeData={resumeData}/>
-        <About resumeData={resumeData}/>
-        <Portfolio resumeData={resumeData}/>
-        <Footer resumeData={resumeData}/>
+  return (
+    <Router>
+      <div>
+        <Navbar />
+        <Switch>
+          <Route exact path={["/", "/home"]}>
+            <Home />
+          </Route>
+          <Route exact path="/contact">
+            <Contact />
+          </Route>
+          <Route exact path="/projects">
+            <Projects />
+          </Route>
+          <Route>
+            <Oops />
+          </Route>
+        </Switch>
+        {/* <Footer /> */}
       </div>
-    );
-  
+    </Router>
+  );
 }
 
-// export default App;
-
-// function App() {
-
-
-  
-//   return (
-//     <Router>
-//       <div className="App">
-//         <Switch>
-//           <Route path="/project">
-//             <ProjectSolo />
-//           </Route>
-//           <Route exact path="/">
-//             <Home />
-//           </Route>
-//           <Route>
-//             <NoMatch />
-//           </Route>
-//         </Switch>
-//       </div>
-//     </Router>
-//   )
-  
-
-// }
-
 export default App;
+
+// how to call individual projects
+{/* <Route
+path="/profile/:profileId"
+render={(props) => {
+  return <Profile {...props} loading={this.state.loading} />;
+}}
+/> */}

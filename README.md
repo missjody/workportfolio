@@ -4,13 +4,16 @@ https://missjodyrussell.com
 
 ### Todos
 
+* Check for broken links with the update
+
 * Update Rahul's code to remove outdated jquery
     * switch from init.js to react hook
     * fix nav bar visibility 
 
 * Change from modals to routing to individual pages
 
-* Add more pages
+* Add more projects
+    * weather app redo
 
 * Push updates to live site
 
