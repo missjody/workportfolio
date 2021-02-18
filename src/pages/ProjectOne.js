@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import resumeData from "../resumeData";
 
 // this page needs to be passed the location in the array that the selection 
 // is at so that it populates the page with that project
@@ -8,12 +9,13 @@ import React, { Component } from 'react';
 export default class ProjectSoloPage extends Component {
   render() {
       
-    let resumeData = this.props.resumeData;
+    // let resumeData = this.props.resumeData;
 
     console.log("resumeData ", resumeData)
+
     return (
       <div>
-          <h1> Test {resumeData} </h1>
+          <h1> Test </h1>
 
           {/* Project Image */}
           {/* Project Title */}

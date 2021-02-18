@@ -1,20 +1,19 @@
-  
-import React from "react";
-import Header from '../components/Header';
+import React, { Component } from "react";
 import About from '../components/About';
 import Portfolio from '../components/Portfolio';
 import Footer from "../components/Footer"
 import resumeData from '../resumeData';
-
-const Home = () => {
+ 
+class Home extends Component {
+  render() {
     return (
-        <div>
-            <Header resumeData={resumeData}/>
-            <About resumeData={resumeData}/>
-            <Portfolio resumeData={resumeData}/>
-            <Footer resumeData={resumeData} />
-        </div>
-    )
+      <div>
+          <About resumeData={resumeData}/>
+          <Portfolio resumeData={resumeData}/>
+          <Footer resumeData={resumeData} />
+      </div>
+  )
+  }
 }
-
-export default Home();
+ 
+export default Home;
