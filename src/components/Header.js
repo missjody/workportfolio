@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 export default class Header extends Component {
@@ -22,7 +22,8 @@ export default class Header extends Component {
                       return(
                         <li key={item.name}>
                                 <a href={item.url} target="_blank"  rel="noreferrer">
-                                <FontAwesomeIcon icon={item.icon} />
+                                {/* <FontAwesomeIcon icon={item.icon} /> */}
+                                Icon commented out
                                 </a>
                               </li>
                             )

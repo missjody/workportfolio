@@ -1,11 +1,13 @@
-import React from "react";
+import React, { Component } from "react";
 
-const NoMatch = () => {
+class NoMatch extends Component {
+    render() {
     return (
         <div>
             <h1> Sorry, that page does not exist </h1>
         </div>
     )
 }
+}
 
-export default NoMatch();
+export default NoMatch;
