@@ -1,21 +1,23 @@
 ## Portfolio Project
 
+Current Version at: 
+
 https://missjodyrussell.com
 
-### Todos
-
-* Check for broken links with the update
-
-* Update Rahul's code to remove outdated jquery
-    * switch from init.js to react hook
-    * fix nav bar visibility 
+### Todos at of 2/17/2021
 
 * Change from modals to routing to individual pages
-
-* Add more projects
-    * weather app redo
+    * With the SPA sat up next is redirection on click to page for project, rendering with passed project's info
 
 * Push updates to live site
+
+### Layout Sketches/Rough Draft
+
+![ScreenOne](https://raw.githubusercontent.com/missjody/workportfolio/master/public/Screen%201.png)
+
+![ScreenTwo](https://raw.githubusercontent.com/missjody/workportfolio/master/public/Screen2.png)
+
+![ScreenThree](https://raw.githubusercontent.com/missjody/workportfolio/master/public/Screen3.png)
 
 ### Template
 
@@ -44,10 +46,4 @@ Worked through this tutorial for modals in react: https://github.com/AlbertCarre
 * Change from case switch to something more elegant
 
 
-### Layout Sketches/Rough Draft
 
-![ScreenOne](https://raw.githubusercontent.com/missjody/workportfolio/master/public/Screen%201.png)
-
-![ScreenTwo](https://raw.githubusercontent.com/missjody/workportfolio/master/public/Screen2.png)
-
-![ScreenThree](https://raw.githubusercontent.com/missjody/workportfolio/master/public/Screen3.png)
