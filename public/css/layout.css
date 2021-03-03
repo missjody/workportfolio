@@ -18,6 +18,17 @@
 
 ===================================================================== */
 
+#wrongTurn {
+   background: #ebeeee;
+   padding-top: 90px;
+   padding-bottom: 60px;
+  }
+
+#wrongTurnH {
+   display: block;
+   text-align: center;
+}
+
 #test {
    display: block;
 }
