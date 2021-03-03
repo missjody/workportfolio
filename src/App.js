@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import Home from "./pages/Home";
 import NoMatch from "./pages/NoMatch.js"
-import ProjectOne from "./pages/ProjectOne";
+import Projects from "./pages/Projects";
 
 import Header from './components/Header';
 import resumeData from './resumeData';
@@ -22,8 +22,8 @@ class App extends Component {
               <Route exact path={["/", "/home"]}>
                 <Home />
               </Route>
-              <Route exact path="/projects">
-                <ProjectOne />
+              <Route path="/projects">
+                <Projects />
               </Route>
               <Route>
                 <NoMatch />

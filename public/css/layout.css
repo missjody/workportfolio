@@ -18,6 +18,17 @@
 
 ===================================================================== */
 
+#wrongTurn {
+   background: #ebeeee;
+   padding-top: 90px;
+   padding-bottom: 60px;
+  }
+
+#wrongTurnH {
+   display: block;
+   text-align: center;
+}
+
 #test {
    display: block;
 }
@@ -55,7 +66,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -428,7 +439,7 @@ ul#nav li.current a { color: #1DABB0; }
 .flexslider .slides > li { position: relative; }
 
 /* Hide the slides before the JS is loaded. Avoids image jumping */
-.flexslider .slides > li { display: none; -webkit-backface-visibility: hidden; }
+.flexslider .slides > li { display: none; -webkit-backface-visibility: hidden; backface-visibility: hidden; }
 /* Suggested container for slide animation setups. Can replace this with your own */
 .flex-container { zoom: 1; position: relative; }
 
