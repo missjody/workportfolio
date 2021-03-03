@@ -8,7 +8,7 @@ class NoMatch extends Component {
     return (
         <div>
         <section id="wrongTurn">
-            <h1> Sorry, that page does not exist </h1>
+            <h1 id="wrongTurnH"> Sorry, that page does not exist </h1>
         </section>
         <Portfolio resumeData={resumeData}/>
         <Footer resumeData={resumeData} />
