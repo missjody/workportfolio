@@ -6,6 +6,9 @@ https://missjodyrussell.com
 
 ### Todos at of 2/17/2021
 
+* Now that it is set up for spa routing there is an answer for going to individual project's pages but there is not a way to return to the "home" page to retrieve the contact information.
+    * Solutions could be adding a button to return or could be that Projects also includes the About component.
+
 * Change from modals to routing to individual pages
     * With the SPA sat up next is redirection on click to page for project, rendering with passed project's info
 

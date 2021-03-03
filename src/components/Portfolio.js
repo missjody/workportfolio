@@ -29,7 +29,7 @@ export default class Portfolio extends Component {
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
 
-              let itemID = item.modalID;
+              // let itemID = item.modalID;
 
               return(
                 <div key={item.name} className="columns portfolio-item">
