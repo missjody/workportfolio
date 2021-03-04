@@ -4,17 +4,17 @@ import { Link } from "react-router-dom";
 
 export default class Portfolio extends Component {
   
-  // state = {
-  //   modal: false,
-  //   modalInfo: "",
-  // }
+  state = {
+    modal: false,
+    modalInfo: "",
+  }
 
-  // selectModal = (info = "") => {
-  //   this.setState({
-  //     modal: !this.state.modal,
-  //     modalInfo: info
-  //   })
-  // }
+  selectModal = (info = "") => {
+    this.setState({
+      modal: !this.state.modal,
+      modalInfo: info
+    })
+  }
   
   render() {
     
@@ -29,7 +29,7 @@ export default class Portfolio extends Component {
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
 
-              // let itemID = item.modalID;
+              let itemID = item.modalID;
 
               return(
                 <div key={item.name} className="columns portfolio-item">
@@ -41,7 +41,12 @@ export default class Portfolio extends Component {
                        
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>
-                          <Link to={{pathname: "/projects", state: item}}>   <p>{item.description}</p> </Link>
+                          {/* note 3/3: this just isn't it. we need to redirect to /projects; now the question is
+                          -do we do this by going to /projects/:projectTitle and then search for our item's 
+                            information using the item.name?
+                          -do we do this by taking all the information plugged into this individual project square 
+                            and passing it over to Projects.js via props or state or something */}
+                          <Link to={{pathname: "/projects", project: item}}>   <p>{item.description}</p> </Link>
                         </div>
                       </div>
                   </div>

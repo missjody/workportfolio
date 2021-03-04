@@ -18,6 +18,14 @@
 
 ===================================================================== */
 
+#projectsSection {
+   background: #ebeeee;
+   padding-top: 90px;
+   padding-bottom: 60px;
+   display: block;
+   text-align: center;
+  }
+
 #wrongTurn {
    background: #ebeeee;
    padding-top: 90px;
