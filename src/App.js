@@ -11,6 +11,11 @@ import Projects from "./pages/Projects";
 import Header from './components/Header';
 import resumeData from './resumeData';
  
+// note from 3/3: when changing the projects route like this
+// can we additionally drill down to grab just the project based on
+// what is being passed from current press 
+
+
 class App extends Component {
     render() {
         return (
@@ -22,9 +27,12 @@ class App extends Component {
               <Route exact path={["/", "/home"]}>
                 <Home />
               </Route>
-              <Route path="/projects">
-                <Projects />
-              </Route>
+              <Route 
+                exact path="/projects/:id"
+                render={props => 
+                  <Projects project={this.state.project}
+                  />
+                }/>
               <Route>
                 <NoMatch />
               </Route>
