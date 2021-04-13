@@ -9,32 +9,32 @@ import About from '../components/About';
 
 // flesh out once info is passing to page correctly
 
-const Projects = (project) => {
+const Projects = () => {
 
-      
-    // let resumeData = this.props.resumeData;
 
-    console.log("project data: ", project )
+  // let resumeData = this.props.resumeData;
 
-    return (
-      <div>
-        <section id="projectsSection">
+  // console.log("project data: ", itemID)
 
-          <h1> Test </h1>
-          <h3>
-          Project Title 
+  return (
+    <div>
+      <section id="projectsSection">
+
+        <h1> Test </h1>
+        <h3>
+          Project Title
 
           Project Image
           Project Description
           Project Link 1 Project Link 2 if true
           </h3>
 
-        </section>
-        <Portfolio resumeData={resumeData}/>
-        <About resumeData={resumeData}/>
-        <Footer resumeData={resumeData} />
-        </div>
-    )
-  }
+      </section>
+      <Portfolio resumeData={resumeData} />
+      <About resumeData={resumeData} />
+      <Footer resumeData={resumeData} />
+    </div>
+  )
+}
 
-  export default Projects;
+export default Projects;
