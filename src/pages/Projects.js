@@ -16,24 +16,20 @@ const Projects = () => {
 
   let itemID = useParams();
 
+  let item = resumeData.portfolio[itemID.id]
 
-  // let resumeData = this.props.resumeData;
-
-  console.log("project data: ", itemID)
+  console.log("project data: ", item)
 
   return (
 
     <div>
       <section id="projectsSection">
 
-        <h1> Test </h1>
-        <h3>
-          Project Title
-
-          Project Image
-          Project Description
-          Project Link 1 Project Link 2 if true
-          </h3>
+        <h1 style={{ color: "white" }}>{item.name}</h1>
+        <img src={`${item.imgurl}`} alt={item.name} className="modal-img" />
+        <h3 style={{ color: "white" }}>{item.longDescription}</h3>
+        <a display='block' target="_blank" href={`${item.deployed}`} rel="noreferrer">Deployed Project</a>
+        <a display='block' target="_blank" href={`${item.github}`} rel="noreferrer">GitHub Repository</a>
 
       </section>
       <Portfolio resumeData={resumeData} />

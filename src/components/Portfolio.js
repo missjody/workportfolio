@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 // import Modal from "./Modal";
 import { Link } from "react-router-dom";
 
+
 export default class Portfolio extends Component {
 
   state = {
