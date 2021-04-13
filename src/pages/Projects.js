@@ -4,6 +4,9 @@ import Footer from "../components/Footer"
 import Portfolio from '../components/Portfolio';
 import About from '../components/About';
 
+import {
+  useParams
+} from "react-router-dom";
 // this page needs to be passed the location in the array that the selection 
 // is at so that it populates the page with that project
 
@@ -11,12 +14,15 @@ import About from '../components/About';
 
 const Projects = () => {
 
+  let itemID = useParams();
+
 
   // let resumeData = this.props.resumeData;
 
-  // console.log("project data: ", itemID)
+  console.log("project data: ", itemID)
 
   return (
+
     <div>
       <section id="projectsSection">
 
