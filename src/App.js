@@ -27,7 +27,7 @@ class App extends Component {
             <Route exact path={["/", "/home"]}>
               <Home />
             </Route>
-            <Route exact path={"/project"}>
+            <Route path={"/project/:id"}>
               {/* // exact path="/projects/:id"
                 // render={props => 
                   // <Projects project={this.state.project} */}
