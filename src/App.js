@@ -9,6 +9,10 @@ import NoMatch from "./pages/NoMatch.js"
 import Projects from "./pages/Projects";
 
 import Header from './components/Header';
+import Portfolio from "./components/Portfolio";
+import About from "./components/About";
+import Footer from "./components/Footer";
+
 import resumeData from './resumeData';
 
 // note from 3/3: when changing the projects route like this
@@ -39,6 +43,10 @@ class App extends Component {
               <NoMatch />
             </Route>
           </Switch>
+
+          <Portfolio resumeData={resumeData} />
+
+          <Footer resumeData={resumeData} />
         </div>
       </BrowserRouter>
     );
