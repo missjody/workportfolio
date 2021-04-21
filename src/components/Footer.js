@@ -7,6 +7,9 @@ export default class Footer extends Component {
     let resumeData = this.props.resumeData;
     return (
       <footer>
+
+        <a href="#home">{React.createElement(FontAwesome["FaHome"])}</a>
+
         <div className="row">
           <div className="twelve columns">
             <ul className="social-links">
