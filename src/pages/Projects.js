@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import resumeData from "../resumeData";
+
+import ScrollHelpers from "../helpers/scroll-helpers";
 
 import {
   useParams
@@ -10,7 +12,21 @@ import {
 
 // flesh out once info is passing to page correctly
 
+// Do I really need to keep inline styling or am I better than this
+
+
+
 const Projects = () => {
+
+
+  // on load or reload of component I want to 
+  useEffect(() => {
+    // scroll to the top of the component
+    window.scrollTo({
+      top: 800,
+      behavior: "smooth"
+    });
+  }, [])
 
   let itemID = useParams();
 
@@ -21,15 +37,12 @@ const Projects = () => {
   return (
 
     <div id="projectsBox">
-      {/* <section id="projectsSection"> */}
 
       <h1 style={{ color: "white" }}>{item.name}</h1>
-      {/* <img src={`${item.imgurl}`} alt={item.name} /> */}
       <h3 style={{ color: "white" }}>{item.longDescription}</h3>
       <a display='block' target="_blank" href={`${item.deployed}`} rel="noreferrer">Deployed Project  |</a>
       <a display='block' target="_blank" href={`${item.github}`} rel="noreferrer">  GitHub Repository</a>
 
-      {/* </section> */}
 
     </div>
   )
