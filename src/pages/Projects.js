@@ -21,12 +21,10 @@ const Projects = () => {
 
   // on load or reload of component I want to 
   useEffect(() => {
-    // scroll to the top of the component
-    window.scrollTo({
-      top: 800,
-      behavior: "smooth"
-    });
-  }, [])
+    // scroll to the top of the component... or id, that works
+
+    document.getElementById('projectsBox').scrollIntoView({ behavior: "smooth" });
+  })
 
   let itemID = useParams();
 
