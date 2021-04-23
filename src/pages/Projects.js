@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react';
 import resumeData from "../resumeData";
 
-import ScrollHelpers from "../helpers/scroll-helpers";
-
 import {
   useParams
 } from "react-router-dom";
@@ -30,7 +28,7 @@ const Projects = () => {
 
   let item = resumeData.portfolio[itemID.id]
 
-  console.log("project data: ", item.deployed)
+  console.log("project data: ", resumeData)
 
   return (
 

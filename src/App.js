@@ -7,10 +7,10 @@ import {
 import Home from "./pages/Home";
 import NoMatch from "./pages/NoMatch.js"
 import Projects from "./pages/Projects";
+import Articles from "./pages/Articles";
 
 import Header from './components/Header';
 import Portfolio from "./components/Portfolio";
-import About from "./components/About";
 import Footer from "./components/Footer";
 
 import resumeData from './resumeData';
@@ -32,12 +32,10 @@ class App extends Component {
               <Home />
             </Route>
             <Route path={"/project/:id"}>
-              {/* // exact path="/projects/:id"
-                // render={props => 
-                  // <Projects project={this.state.project} */}
               <Projects />
-              {/* // />
-                // }/> */}
+            </Route>
+            <Route path={"/article/:id"}>
+              <Articles />
             </Route>
             <Route>
               <NoMatch />

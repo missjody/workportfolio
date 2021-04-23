@@ -27,7 +27,7 @@ let resumeData = {
       "icon": "FaFile"
     }
   ],
-  "aboutme": "In April 2020 I graduated from the University of Denver’s Full Stack program, which covered HTML, CSS, JS, and React. I also gained experience in setting up databases and servers to connect to front-end, including MongoDB, Mongoose, and Express. Outside of class I have explored additional technologies: Adobe Xd, Green Sock animation, Materialize CSS, Nextjs, Redux, Sass and ChartJS.",
+  "aboutme": "In April 2020 I graduated from the University of Denver’s Full Stack program, which covered HTML, CSS, JS, and React. I also gained experience in setting up databases and servers to connect to front-end, including MongoDB, Mongoose, and Express. Outside of class I have explored additional technologies: Adobe Xd, Green Sock animation, Materialize CSS, Nextjs, Redux, Sass and ChartJS. Currently working as a Software QA Tester.",
   "address": "405.780.4121",
   "website": "mailto:missjodyrussell@gmail.com",
   "portfolio": [
@@ -57,9 +57,11 @@ let resumeData = {
       "imgurl": "images/surata1.jpg",
       "github": "https://github.com/missjody/productivity-app",
       "deployed": "https://newsurata.herokuapp.com/"
-    },
+    }
+  ],
+  "articles": [
     {
-      "modalID": "3",
+      "artId": "1",
       "name": "Deploying to Azure",
       "description": "In an effort to create resources for myself that will also help others with their programming journey, this article outlines the steps neccessary to deploy a React application to Microsoft Azure.",
       "longDescription": "In an effort to create resources for myself that will also help others with their programming journey, this article outlines the steps neccessary to deploy a React application to Microsoft Azure. Following the steps will assist anyone interested in deploying this way.",
