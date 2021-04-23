@@ -1,17 +1,17 @@
-import React, { Component } from "react";
+import React from "react";
 import About from '../components/About';
-import Portfolio from '../components/Portfolio';
-import Footer from "../components/Footer"
 import resumeData from '../resumeData';
 
-class Home extends Component {
-  render() {
-    return (
-      <div>
-        <About resumeData={resumeData} />
-      </div>
-    )
-  }
+
+const Home = () => {
+
+
+  return (
+    <div>
+      <About resumeData={resumeData} />
+    </div>
+  )
 }
+
 
 export default Home;
