@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.5.0",
-  "homepage": "https://missjody.github.io/workportfolio/",
+  "homepage": "https://missjody.github.io/workportfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
