@@ -5,10 +5,19 @@ import * as FontAwesome from "react-icons/fa"
 export default class Footer extends Component {
   render() {
     let resumeData = this.props.resumeData;
+
+    function goHome(e) {
+      e.preventDefault();
+      // console.log('The link was clicked.');
+      window.scroll({ top: 0, left: 0, behavior: "smooth" });
+      window.location = ('/')
+    }
     return (
       <footer>
 
-        <a href="/">{React.createElement(FontAwesome["FaHome"])}</a>
+        <h1 onClick={goHome}>{React.createElement(FontAwesome["FaHome"])}</h1>
+
+
 
         <div className="row">
           <div className="twelve columns">
@@ -28,7 +37,7 @@ export default class Footer extends Component {
 
           </div>
         </div>
-      </footer>
+      </footer >
     );
   }
 }

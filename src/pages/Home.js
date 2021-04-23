@@ -1,15 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 import About from '../components/About';
 import resumeData from '../resumeData';
 
 
 const Home = () => {
 
-  useEffect(() => {
-    // scroll to the top of the component... or id, that works
-
-    document.getElementById('about').scrollIntoView({ behavior: "smooth" });
-  })
 
   return (
     <div>
