@@ -8,7 +8,7 @@ export default class Footer extends Component {
     return (
       <footer>
 
-        <a href="#home">{React.createElement(FontAwesome["FaHome"])}</a>
+        <a href="/">{React.createElement(FontAwesome["FaHome"])}</a>
 
         <div className="row">
           <div className="twelve columns">
