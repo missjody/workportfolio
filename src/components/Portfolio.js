@@ -5,17 +5,17 @@ import { Link } from "react-router-dom";
 
 export default class Portfolio extends Component {
 
-  state = {
-    modal: false,
-    modalInfo: "",
-  }
+  // state = {
+  //   modal: false,
+  //   modalInfo: "",
+  // }
 
-  selectModal = (info = "") => {
-    this.setState({
-      modal: !this.state.modal,
-      modalInfo: info
-    })
-  }
+  // selectModal = (info = "") => {
+  //   this.setState({
+  //     modal: !this.state.modal,
+  //     modalInfo: info
+  //   })
+  // }
 
   render() {
 

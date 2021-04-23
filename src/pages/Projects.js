@@ -5,17 +5,8 @@ import {
   useParams
 } from "react-router-dom";
 
-// this page needs to be passed the location in the array that the selection 
-// is at so that it populates the page with that project
-
-// flesh out once info is passing to page correctly
-
-// Do I really need to keep inline styling or am I better than this
-
-
 
 const Projects = () => {
-
 
   // on load or reload of component I want to 
   useEffect(() => {
@@ -26,9 +17,11 @@ const Projects = () => {
 
   let itemID = useParams();
 
+  // console.log("projects itemID ", itemID)
+
   let item = resumeData.portfolio[itemID.id]
 
-  console.log("project data: ", resumeData)
+  // console.log("project data: ", resumeData.articles[0])
 
   return (
 

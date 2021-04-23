@@ -61,7 +61,7 @@ let resumeData = {
   ],
   "articles": [
     {
-      "artId": "1",
+      "artId": "0",
       "name": "Deploying to Azure",
       "description": "In an effort to create resources for myself that will also help others with their programming journey, this article outlines the steps neccessary to deploy a React application to Microsoft Azure.",
       "longDescription": "In an effort to create resources for myself that will also help others with their programming journey, this article outlines the steps neccessary to deploy a React application to Microsoft Azure. Following the steps will assist anyone interested in deploying this way.",

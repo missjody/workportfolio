@@ -16,19 +16,16 @@ const Articles = () => {
   })
 
 
-  // let itemID = useParams();
+  let artId = useParams();
 
-  // let item = resumeData.articles[itemID.id]
-
-  console.log("articles data " + resumeData)
+  let artItem = resumeData.articles[artId.id]
 
   return (
 
     <div id="projectsBox">
-      {/* 
-      <h1 style={{ color: "white" }}>{item.name}</h1>
-      <h3 style={{ color: "white" }}>{item.longDescription}</h3>
-      <a display='block' target="_blank" href={`${item.article}`} rel="noreferrer">Article Link</a> */}
+      <h1 style={{ color: "white" }}>{artItem.name}</h1>
+      <h3 style={{ color: "white" }}>{artItem.longDescription}</h3>
+      <a display='block' target="_blank" href={`${artItem.article}`} rel="noreferrer">Article Link</a>
 
     </div>
   )
